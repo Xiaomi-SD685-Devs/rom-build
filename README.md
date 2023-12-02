@@ -12,7 +12,7 @@ Add this line to HAL repository line :
 
 ```
   <project path="hardware/qcom-caf/sm6225/audio/agm" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_agm" remote="github" revision="lineage-20.0-caf-sm6225" />
-  <project path="hardware/qcom-caf/sm6225/audio/pal" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_arpal-lx" remote="github" revision="lineage-20.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_arpal" remote="github" revision="lineage-20.0-caf-sm6225" />
   <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="Xiaomi-SD685-Devs/hardware_qcom_audio" remote="github" revision="lineage-20.0-caf-sm6225" />
   <project path="hardware/qcom-caf/sm6225/display" name="Xiaomi-SD685-Devs/hardware_qcom_display" remote="github" revision="lineage-20.0-caf-sm6225" />
   <project path="hardware/qcom-caf/sm6225/media" name="Xiaomi-SD685-Devs/hardware_qcom_media" remote="github" revision="lineage-20.0-caf-sm6225" />
@@ -23,9 +23,7 @@ After successfully repo sync finished. Then pick this commit to your'e vendor/RO
 - https://github.com/Xiaomi-SD685-Devs/vendor_lineage/commit/03bdcbe88c0cb22148aac8a5699ca4c06fb8a42a
 - https://github.com/Xiaomi-SD685-Devs/vendor_lineage/commit/c039930871be5683a968a1be1f46a2524441da69
 
-Clone device tree to your initialize repo. Then add this flags hals to override legacy device hals in the BoardConfig.mk
-- https://github.com/Xiaomi-SD685-Devs/rom-build/blob/main/board_hals.mk
-
+Clone device tree to your initialize repo.
 Done! Compile the ROM.
 
 ## Notes :
