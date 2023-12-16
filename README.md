@@ -32,5 +32,8 @@ After successfully repo sync finished. Then pick this commit to your'e vendor/RO
 Clone device tree to your initialize repo.
 Done! Compile the ROM.
 
+## Adapt to Android 14 :
+- [Android 14 adaptations](https://github.com/Xiaomi-SD685-Devs/rom-build/blob/A14/README.md)
+
 ## Notes :
 - We have a device with the bengal_515 platform.  It looks the same as bengal 4.19 legacy.
