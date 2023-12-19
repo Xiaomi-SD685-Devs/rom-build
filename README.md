@@ -33,7 +33,7 @@ Adapt new platform to your BoardConfigQcom.mk ROM:
 
 - https://github.com/Xiaomi-SD685-Devs/hardware_qcom-caf_common/commit/94efc0911bd439ae0a70a5a93a18e71ced285141
 
-- https://github.com/Xiaomi-SD685-Devs/hardware_qcom-caf_common/commit/94efc0911bd439ae0a70a5a93a18e71ced285141
+- https://github.com/Xiaomi-SD685-Devs/hardware_qcom-caf_common/commit/d88b407057a85135bc236d7222dcc143d830fd9d
 
 Clone device tree to your initialize repo,done!!
 
